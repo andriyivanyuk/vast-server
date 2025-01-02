@@ -1,0 +1,6 @@
+CREATE TABLE campaigns (
+    id SERIAL PRIMARY KEY,
+    video_url TEXT NOT NULL,
+    start_time TIMESTAMP WITH TIME ZONE NOT NULL,
+    end_time TIMESTAMP WITH TIME ZONE NOT NULL
+);
